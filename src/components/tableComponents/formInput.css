@@ -1,0 +1,40 @@
+form div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+span {
+    width: 5%;
+}
+
+input {
+    width: 15%;
+}
+
+.btn {
+    margin-left: 5%;
+    display: flex;
+    gap: 10px;
+}
+
+.btn button {
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.btn button:nth-child(1) {
+    background-color: rgb(114, 202, 52);
+}
+
+.btn button:nth-child(2) {
+    background-color: rgb(202, 199, 52);
+}
+
+.btn button:nth-child(3) {
+    background-color: rgb(210, 49, 49);
+}
+
+.btn button:nth-child(4) {
+    background-color: rgb(52, 97, 202);
+}
